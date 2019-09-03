@@ -13,6 +13,6 @@ module.exports = Merge(CommonConfig, {
     writeToDisk: true
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: "styles.css" })
+    new MiniCssExtractPlugin({ filename: "i.css" })
   ]
 });

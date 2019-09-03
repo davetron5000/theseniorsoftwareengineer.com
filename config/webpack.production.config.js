@@ -43,7 +43,7 @@ const html_files_plugins = html_files({
 });
 
 const plugins = [
-  new MiniCssExtractPlugin({ filename: "styles-[contenthash].css" })
+  new MiniCssExtractPlugin({ filename: "i-[contenthash].css" })
 ].concat(html_files_plugins).concat(copy_assets);
 
 module.exports = Merge(CommonConfig, {
