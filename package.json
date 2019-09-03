@@ -25,7 +25,8 @@
     "webpack-merge": "^4.2.1"
   },
   "config": {
-    "webpack_args": " --config webpack.config.js --display-error-details"
+    "webpack_args": " --config webpack.config.js --display-error-details",
+    "domain": "theseniorsoftwareengineer.com"
   },
   "scripts": {
     "build:once": "node src/js/build.js",
@@ -38,8 +39,7 @@
     "prod": "echo yarn prod:deploy will build a production deployment and deploy it to S3 whereas yarn prod:webpack will just build the production site without deploying it",
     "prod:deploy": "yarn dev:clean && yarn prod:webpack && yarn prod:upload && yarn prod:invalidate",
     "prod:invalidate": "node src/js/invalidate_cloudfront.js",
-    "prod:upload:real": "aws s3 sync --cache-control=\"max-age=3600\" --profile=personal production/ s3://$npm_package_config_domain",
-    "prod:upload": "echo Set domain in the package.json config, then delete the prod:upload task and rename prod:upload:real to prod:upload",
+    "prod:upload": "aws s3 sync --cache-control=\"max-age=3600\" --profile=personal production/ s3://$npm_package_config_domain",
     "prod:webpack": "yarn build:once && webpack $npm_package_config_webpack_args --env=production"
   }
 }
