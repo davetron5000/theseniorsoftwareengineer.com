@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 export default function(props) {
   return(
     <Layout>
-      <a name="toc"></a>
+      <a name="toc">&nbsp;</a>
       <section className="content">
         <h1>Table of contents</h1>
         <ol className="f4 mb0">

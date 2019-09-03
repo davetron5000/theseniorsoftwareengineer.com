@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 export default function(props) {
   return(
     <Layout>
-      <a name="top"></a>
+      <a name="top">&nbsp;</a>
       <section className="content">
       <div className="sect1">
       <h2 id="_deal_with_technical_debt_and_slop">Deal With Technical Debt and Slop</h2>
