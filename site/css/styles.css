@@ -1,0 +1,14 @@
+html {
+  font-size: 21px;
+  font-family: Avenir sans-serif;
+  color: #111;
+  background-color: #ddd;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color: #ddd;
+    background-color: #111;
+  }
+}
