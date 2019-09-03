@@ -14,9 +14,7 @@ const htmlFiles = fs
     return `/${file}`;
   });
 
-const distrbution_id = null;
-
-throw `You must set distrbution_id in ${__filename}`;
+const distrbution_id = "E3AA1Y61JR4AGJ";
 
 const command = `aws cloudfront create-invalidation --profile=personal --distribution=${distrbution_id} --paths ${htmlFiles.join(
   " "
