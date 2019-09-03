@@ -17,7 +17,7 @@ export default function(props) {
             <img src="images/cover.png" alt="Cover" className="shadow bor bor-gry" />
           </div>
           <h1 className="ss caps f3">Contents</h1>
-          <h2 className="ss f5">240+ pages over 14 chapters &amp standalone essays:</h2>
+          <h2 className="ss f5">240+ pages over 14 chapters &amp; standalone essays:</h2>
           <ol className="list f4">
             <li className="list-item">
               <a href="/focus_on_delivering_results_excerpt.html#top" title="Read Excerpt" >
@@ -46,15 +46,15 @@ export default function(props) {
             <li className="list-item">Be Responsive and Productive</li>
             <li className="list-item borbo bor-ltgry">Lead a Team</li>
             <li className="list-item">
-              Engineer as Product Manager
+              Engineer as Product Manager{ " " }
               <span className="mdgry thin">(Essay)</span>
             </li>
             <li className="list-item">
-              Production is All That Matters
+              Production is All That Matters{ " " }
               <span className="mdgry thin">(Essay)</span>
             </li>
             <li className="list-item">
-              Responsible Refactoring
+              Responsible Refactoring{ " " }
               <span className="mdgry thin">(Essay)</span>
             </li>
           </ol>
@@ -155,86 +155,39 @@ export default function(props) {
       <section className="mt4 mb4 pb2 pt2">
         <div className="content">
           <h1 className="ss f4 caps mb4 tc">Other work</h1>
-          <h2 className="ss m0 f5">From my blog Naildrivin' ❺</h2>
+            <h2 className="ss m0 f5">From my <a href="https://naildrivin5.com">blog, Naildrivin' 5:</a></h2>
           <ul className="list f4 borbo bor-gry pb2">
             <li>
-              <a href="http://www.naildrivin5.com/blog/2014/08/07/rails-degenerate-front-end-support.html"
-                title="Rails' Degenerate Front-End Support">
-                Rails' Degenerate Front-End Support »
+              <a href="https://naildrivin5.com/blog/2019/08/08/choosing-technology.html"
+                title="Choosing Technology">
+                “Choosing Technology” »
               </a>
             </li>
             <li>
-              <a href="http://www.naildrivin5.com/blog/2014/06/04/what-swift-tells-use-about-programming-language-trends.html"
-                title="What Swift Tells Us About Programming Language Trends">
-                What Swift Tells Us About Programming Language Trends »
+              <a href="https://naildrivin5.com/blog/2019/07/25/four-better-rules-for-software-design.html"
+                title="Four Better Rules for Software Design">
+                “Four Better Rules for Software Design” »
               </a>
             </li>
             <li>
-              <a href="http://www.naildrivin5.com/blog/2012/06/27/what-is-better-code.html" title="What is better code">
-                What Is ‘Better’ Code? »
+              <a href="https://naildrivin5.com/blog/2018/05/06/creating-a-culture-of-consistency.html"
+                title="Creating a Culture of Consistency">
+                “Creating a Culture of Consistency” »
+              </a>
+            </li>
+            <li>
+              <a href="https://naildrivin5.com/talks/index.html"
+                title="Link to Talks">
+                Talks »
+              </a>
+            </li>
+            <li>
+              <a href="https://naildrivin5.com/books/index.html"
+                title="Link to Other Books">
+                Other Books »
               </a>
             </li>
           </ul>
-          <section>
-            <h1 className="ss m0 f5 mt4">My other book</h1>
-            <h2 className="f4 ss mb0">Build Awesome Command-Line Applications in Ruby 2</h2>
-            <div className="grid grid--center v3-grid--2col v2-grid--2col mb4">
-              <div className="grid-cell">
-                <blockquote>
-                  <p className="f5 i">
-                    "David Copeland has written a guide to writing the kind of command-line
-                    apps that will make your users want to hug you…this book will show you how to
-                    take your scripts from adequate to awesome."
-                  </p>
-                  <p className="f6">—Avdi Grimm, Ruby Developer and author of "Exceptional Ruby"</p>
-                </blockquote>
-              </div>
-              <div className="grid-cell">
-                <blockquote>
-                  <p className="f5 i">
-                    I know of no other Ruby book that covers the content in this useful work, especially
-                    with its eye toward making Ruby command-line applications better citizens.
-                  </p>
-                  <p className="f6">—Noel Rappin Senior engineer at Groupon and author of "Rails Test Prescriptions"</p>
-                </blockquote>
-              </div>
-            </div>
-            <div className="media mt2">
-              <img src="/images/dccar2.jpg" alt="Book Cover" className="fl shadow img mw1" />
-              <p className="mb2 f5">
-                Speak directly to your system. With its simple commands, flags, and parameters,
-                a well-formed command-line application is the quickest way to automate a backup,
-                a build, or a deployment and simplify your life.
-                <a href="http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2"
-                  title="Build Awesome Command Line Applications in Ruby 2"
-                  rel="nofollow"
-                  className="btn-link p1 ss caps dib mt2"
-                  >
-                  Buy This Book »
-                </a>
-              </p>
-            </div>
-          </section>
-          <section>
-            <h1 className="ss m0 f5 mt4">Talks</h1>
-            <ul className="list f4 borbo bor-gry pb2">
-              <li>
-                <h2 className="f5">Eliminating Branching, Attributes &amp; Nil: Let's Get Weird <small><a href="http://davidbryantcopeland.com/weird-ruby/" title="Slides">Slides »</a></small></h2>
-                <h3 className="f6">RubyConf 2013</h3>
-                <iframe width="560" height="315" src="//www.youtube.com/embed/inU7MEtI51g?rel=0" frameBorder="0" allowFullScreen></iframe>
-              </li>
-              <li>
-                <h2 className="f5">Services, Scale, Backgrounding and WTF is going on here?!??! <small><a href="http://davidbryantcopeland.com/services-wtf-gogaruco/" title="Slides">Slides »</a></small></h2>
-                <h3 className="f6">Golden Gate Ruby Conf 2012</h3>
-                <video id="html5-player" className="video-js vjs-default-skin" controls="" poster="http://confreaks.com/system/videos/images/1119/preview/1119-gogaruco2012-services-scale-backgrounding-and-wtf-is-going-on-here-thumb_0002.png?1349207264" preload="none" width="640" height="360">
-                  <source src="http://cdn.confreaks.com/system/assets/datas/5097/original/1119-gogaruco2012-services-scale-backgrounding-and-wtf-is-going-on-here-small.mp4" />
-                </video>
-
-              </li>
-              <li>
-              </li>
-            </ul>
-          </section>
         </div>
       </section>
     </Layout>

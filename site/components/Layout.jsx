@@ -38,13 +38,7 @@ export default class Layout extends React.Component {
                       <a href="https://www.amazon.com/Senior-Software-Engineer-Practices-Effective/dp/0990702804/ref=sr_1_2?keywords=the+senior+software+engineer&qid=1567531365&s=gateway&sr=8-2"
                         title="Print Version of The Senior Software Engineer"
                         rel="nofollow"
-                        className="ttl ls1 small s i f4 mt1">Buy it in Print for $19.99</a> •
-                    </li>
-                    <li>
-                      <a href="http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2"
-                        title="Build Awesome Command Line Applications in Ruby 2"
-                        rel="nofollow"
-                        className="ttl ls1 small s i f4 mt1">Looking for my command-line book?</a>
+                        className="ttl ls1 small s i f4 mt1">Buy it in Print for $19.99</a>
                     </li>
                   </ul>
                 </nav>
@@ -58,16 +52,11 @@ export default class Layout extends React.Component {
                     <p className="f4">
                       <img className="mw1 mb2" src="/images/me.png" alt="Davetron5000" />
                       <span className="f3 db tc mb2">I'm Dave Copeland, a programmer and author.</span>
-                      I wrote
-                      <a href="http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2"
-                        title="Build Awesome Command Line Applications in Ruby 2">
-                        “Build Awesome Command-Line Applications in Ruby 2" </a> , and have over 16 years of
-                      professional development experience. I've managed high-performance, high-traffic
-                      systems at LivingSocial and helped build the engineering team at Opower. I've
-                      worked consulting gigs both large and small, commercial and government. I'm
-                      currently Director of Engineering at fashion start-up
-                      <a href="http://stitchfixjobs.com" title="Stitch Fix is hiring">Stitch Fix</a>,
-                      building a platform that will change the retail shopping experience.
+                        I'm a co-author of <a href="http://bit.ly/dcrails6">“Agile Web Deveoppment With Rails”</a>,
+                          and have over { ((new Date()).getYear() + 1900) - 1995 } years of professional development experience.  Most recently I spent six years at Stitch Fix as Chief Software Architect, helping build the team from 3 to over 200 engineers, from startup to IPO and beyond.  I previously worked on high-performance, high-traffic systems at LivingSocial and helped build the team at Opower before that.  I've also worked consulting and government gigs.
+                    </p>
+                    <p>
+                      I go by “Dave”, but write books under my full name (“David Bryant Copeland”) because, as it turns out, my name is pretty common :).
                     </p>
                     <p className="f4">I live in Washington, DC with my lovely wife.</p>
                   </div>
