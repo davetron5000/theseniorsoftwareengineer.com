@@ -14,7 +14,7 @@ export default function(props) {
             Everyone from PHP hackers to hardcore embedded C programmers will get a lot out of this book.
           </p>
           <div className="mw1 center">
-            <img src="images/cover.png" alt="Cover" className="shadow bor bor-gry" />
+            <img src="images/book-and-ebook-cover-900.png" alt="Cover" />
           </div>
           <h1 className="ss caps f3">Contents</h1>
           <h2 className="ss f5">240+ pages over 14 chapters &amp; standalone essays:</h2>
