@@ -20,6 +20,17 @@ export default class Layout extends React.Component {
           <script type="text/javascript" src="//use.typekit.net/awc2ruu.js"></script>
           </head>
           <body>
+            <aside className="bg-dkgry wht tc f4 pa3">
+              <p className="pa0 ma0 mb1">
+                #BlackLivesMatter
+              </p>
+              <p className="pa0 ma0 mb1 f5">
+                50% of all profits until end of 2020 go to <a className="link underline white" href="https://bailproject.org"><span className="light-gray">The Bail Project</span></a>.
+              </p>
+              <p className="pa0 ma0 f6">
+                <a href="https://naildrivin5.com/blm.html" className="i underline link white"><span class="white">Read More</span></a>
+              </p>
+            </aside>
               <div className="borbo bor-gry bg-ltgry tc p2 bg-img"></div>
               <header className="borbo bor-gry bg-ltgry tc p2 mb4">
                 <h1 className="mega f4 ss caps"><a href="/" title="Home - The Senior Software Engineer" className="title">
