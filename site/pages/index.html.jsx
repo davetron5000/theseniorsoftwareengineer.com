@@ -93,7 +93,7 @@ export default function(props) {
           <li>ePub (iPad and most other e-readers)</li>
           <li>plain text (grep|ag|awk away!)</li>
         </ul>
-          <div className="tc mt2"><a href="http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart" className="ss btn-link dib center p1 caps wht tc">Buy Now!</a></div>
+          <div className="tc mt2"><a href="https://sowl.co/3cYah" className="ss btn-link dib center p1 caps wht tc">Buy Now!</a></div>
       </section>
       <section className="borto bor-gry mt4 mb4 pb2 pt2">
         <div className="tc content-full">

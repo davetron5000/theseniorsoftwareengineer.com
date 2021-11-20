@@ -233,7 +233,7 @@ export default function(props) {
       </div>
       </div>
       <div className='sect1'>
-        <a rel="nofollow" href="http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart">Buy now to read more…</a>
+        <a rel="nofollow" href="https://sowl.co/3cYah">Buy now to read more…</a>
       </div>
     </section>
     </Layout>

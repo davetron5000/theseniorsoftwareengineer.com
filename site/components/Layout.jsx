@@ -20,17 +20,6 @@ export default class Layout extends React.Component {
           <script type="text/javascript" src="//use.typekit.net/awc2ruu.js"></script>
           </head>
           <body>
-            <aside className="bg-dkgry wht tc f4 pa3">
-              <p className="pa0 ma0 mb1">
-                #BlackLivesMatter
-              </p>
-              <p className="pa0 ma0 mb1 f5">
-                50% of all profits until end of 2020 go to <a className="link underline white" href="https://bailproject.org"><span className="light-gray">The Bail Project</span></a>.
-              </p>
-              <p className="pa0 ma0 f6">
-                <a href="https://naildrivin5.com/blm.html" className="i underline link white"><span class="white">Read More</span></a>
-              </p>
-            </aside>
               <div className="borbo bor-gry bg-ltgry tc p2 bg-img"></div>
               <header className="borbo bor-gry bg-ltgry tc p2 mb4">
                 <h1 className="mega f4 ss caps"><a href="/" title="Home - The Senior Software Engineer" className="title">
@@ -40,9 +29,10 @@ export default class Layout extends React.Component {
                 </h1>
                 <h2 className="i f4 thin mdgry ts">11 Practices of an Effective Technical Leader</h2>
                 <p className="small s ttl thin mb2 ts">By David Bryant Copeland</p>
-                <a rel="nofollow" href="http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart" title="Buy Now for $50" className="b dib ss btn-link p1 caps">Buy Now $25
+                <a rel="nofollow" href="https://sowl.co/3cYah" title="Buy Now for $50" className="b dib ss btn-link p1 caps">Buy Now $25
                   <span className="ttl ls1 small gry db s i f6">Instantly download as PDF/MOBI/ePub</span>
                 </a>
+                <aside className="mt2"><p className="i f6 maxwi1 center">Not from the US? <a href="https://naildrivin5.com/books/index.html#pricing" target="_blank">Click here to see discount codes</a> that will bring the price down more in-line with your country's purchasing power.</p></aside>
                 <nav className="db">
                   <ul className="list list-inline">
                     <li>
